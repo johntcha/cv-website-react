@@ -13,7 +13,7 @@ export const portfolioData = [
     name: 'Site web CV',
     languages: ['react'],
     languagesIcons: ['fab fa-react'],
-    source: 'http://johntcha.com',
+    source: 'https://github.com/johntcha/cv-website-react',
     info: 'Site CV web actuel que vous consultez',
     picture: './images/cv-web.JPG'
   },
