@@ -16,10 +16,11 @@
 			"L E E"
 			"F F H";
 
-		.languagesFrameworks, .experience, .otherSkills, .hobbies, .formation{
-			background: $color-2;
+		.languagesFrameworks, .experience, .hobbies, .formation{
+			background: linear-gradient(215deg, rgba(77,113,227,1) 0%, rgba(136,136,236,1) 100%);;
 			border-radius: $borderRadius;
 			padding: .8rem;
+      border: 1px solid;
 		}
 		h3{
 			font-size: 2rem;

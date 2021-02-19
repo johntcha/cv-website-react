@@ -12,7 +12,7 @@ const Home = () => {
                 stagiaire chez Capgemini</h2>
                 <div className="resumes">
     			<div className="pdf">
-    				<a href="./images/CV-john-tcha.pdf" target="_blank">CV Français</a>
+    				<a href="./images/CV-john-tcha.pdf" >CV Français</a>
     			</div>
                 <div className="pdf">
                     <a href="./images/resume-john-tcha-english.pdf" target="_blank">CV Anglais</a>

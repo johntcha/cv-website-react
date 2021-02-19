@@ -17,9 +17,10 @@
     width: 100%;
     padding: 1rem 2rem;
     margin: 0 auto;
-    background: $color-1;
+    background: linear-gradient(180deg, #0d449a -15%, #078cc2 100%);
     user-select: none;
     box-shadow: $shadow;
+    border:1px solid;
 
     li {
       color: $color-3;
@@ -84,7 +85,7 @@
     justify-content: space-around;
 
     .project {
-      background: $color-2;
+      background: linear-gradient(215deg, rgba(77,113,227,1) 50%, rgba(136,136,236,1) 100%);
       border-radius: $borderRadius;
       margin: 0.5rem 0 0 0;
       text-align: center;
@@ -93,6 +94,7 @@
       padding: .3rem;
       box-shadow: $shadow;
       display: grid;
+      border:1px solid;
       grid-template-rows: 10% 20% 55% 15%;
       grid-template-areas: 
         "1"
@@ -120,7 +122,7 @@
     h3 {
       grid-area: 2;
       font-family: $font-2;
-      font-size: 1.65rem;
+      font-size: 1.5rem;
       @include verticalCenter;
       justify-content: left;
       color: $color-4;

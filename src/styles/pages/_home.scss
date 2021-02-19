@@ -1,7 +1,7 @@
 .home {
 
   .homeContent {
-    background: linear-gradient(115deg, $color-1 50%, transparent 100%);
+    background: linear-gradient(115deg, rgba(13,68,154,1) 0%, rgba(7,140,194,1) 50%, transparent 100%);
     min-height: $minHeight;
     width: 100%;
     min-height: 500px;
@@ -14,7 +14,7 @@
       position: absolute;
       height: 100%;
       width: inherit;
-      background: url('../../images/code-background.jpg') no-repeat center/cover;
+      background: url('../../media/code-background.jpg') no-repeat center/cover;
       z-index: -1;
       filter: brightness(60%);
     }
@@ -63,12 +63,38 @@
 @media screen and (max-width: 850px){
   .homeContent {
     margin: 0 !important;
+    .resumes{
+      margin-top: -45px;
+      margin-left: -40px;
+    }
+    .pdf{
+      padding: 0 0.1rem!important;
+    }
   }
 }
 @media screen and (max-width:580px){
   .homeContent {
+
+    .content{
+      top: 10%!important;
+      left: 3%!important;
+      width: inherit;
+      .resumes{
+        display: block!important;
+        margin-top: -25px;
+      }
+      .pdf{
+      padding: 0 2rem!important;
+      }
+      .pdf:nth-child(2){
+        margin-top: 35px!important;
+      }
+      .pdf:nth-child(3){
+        margin-top: 35px!important;
+      }
+    }
     &:after {
-    background: url('../../images/code-background.jpg') no-repeat 60% 50%/cover !important;
+    background: url('../../media/code-background.jpg') no-repeat 60% 50%/cover !important;
     }
     h1 {
       font-size: 3rem !important;

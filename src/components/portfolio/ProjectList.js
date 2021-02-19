@@ -7,12 +7,13 @@ export default class ProjectList extends Component {
 	state = {
 		projects:portfolioData,
 		radios: [
+		{id:1, value: 'all'},
 		{id: 1, value: 'javascript'},
 		{id: 1, value: 'php'},
 		{id: 1, value: 'react'},
 		{id: 1, value: 'java'},
 		],
-		selectedRadio: 'javascript'
+		selectedRadio: 'all'
 	};
 
 	handleRadio = (e) => {
