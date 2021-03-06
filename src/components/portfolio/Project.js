@@ -1,19 +1,14 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-export default class Project extends Component {
-	state= {
-		showInfo: false
+function Project(props) {
+
+	const [showInfo, setShowInfo] = useState(false);
+	
+	const handleInfo = () => {
+		setShowInfo(!showInfo);
 	}
 
-	handleInfo = () => {
-		this.setState({
-			showInfo:!this.state.showInfo
-		}
-		)
-	}
-
-	render() {
-		let {name, languagesIcons, source, info, picture} = this.props.item;
+	const {name, languagesIcons, source, info, picture} = props.item;
 
 		return (
 			<div className="project">
@@ -23,13 +18,13 @@ export default class Project extends Component {
 						)}
 				</div>
 				<h3>{name}</h3>
-				<img src={picture} alt="" onClick={this.handleInfo} />
-				<span className="infos" onClick={this.handleInfo}>
+				<img src={picture} alt="" onClick={handleInfo} />
+				<span className="infos" onClick={handleInfo}>
 					<i className="fas fa-plus-circle"></i>
 				</span>
 
 				{
-					this.state.showInfo && (
+					showInfo && (
 							<div className="showInfos">
 								<div className="infosContent">
 									<div className="head">
@@ -42,7 +37,7 @@ export default class Project extends Component {
 
 									<p className="text">{info}</p>
 
-									<div className="button return" onClick={this.handleInfo}>
+									<div className="button return" onClick={handleInfo}>
 										Retourner sur la page
 									</div>
 								</div>
@@ -52,4 +47,5 @@ export default class Project extends Component {
 			</div>
 		);
 	}
-}
+
+export default Project;
