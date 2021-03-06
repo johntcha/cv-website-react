@@ -19,7 +19,7 @@ export const portfolioData = [
   },
   {
     id: 3,
-    name: 'Site vidéo jeu',
+    name: 'Site jeu vidéo',
     languages: ['react','all'],
     languagesIcons: ['fab fa-react'],
     source: 'https://github.com/johntcha/video-game-commercial-website',

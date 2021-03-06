@@ -1,28 +1,43 @@
 import React from 'react';
 
+const formation = [
+    {id: 1,
+     name: "Polytech Annecy-Chambéry - Diplôme d'ingénieur",
+     year:"2017 - 2021", 
+     content:`Ecole d’ingénieurs filière IAI
+          (Instrumentation Automatique
+            Informatique )`, 
+     className: "form1"},
+    {id: 2, 
+     name: "Lycée Henri Moissan - CPGE", 
+    year:"2014 - 2017", 
+    content:`Classe Préparatoire aux
+            Grandes Ecoles en filière Physique
+            Sciences de l’Ingénieur`, 
+    className: "form2"},
+    {id: 3, 
+     name: "Lycée La Tour des Dames", 
+     year:"2014", 
+     content:`Baccalauréat Scientifique`, 
+     className: "form3"}
+    ];
+
 const Formation = () => {
   return (
     <div className="formation">
     	<h3>Formation</h3>
-    	<div className="form1">
-    		<h4>Polytech Annecy-Chambéry - Diplôme d'ingénieur</h4>
-    		<h5>2017 - 2021</h5>
-    		<p>Ecole d’ingénieurs filière IAI
-			(Instrumentation Automatique
-			Informatique )</p>
-    	</div>
-    	<div className="form2">
-    		<h4>Lycée Henri Moissan - CPGE</h4>
-    		<h5>2014 - 2017</h5>
-    		<p>Classe Préparatoire aux
-			Grandes Ecoles en filière Physique
-			Sciences de l’Ingénieur</p>
-    	</div>
-    	<div className="form3">
-    		<h4>Lycée La Tour des Dames</h4>
-    		<h5>2014</h5>
-    		<p>Baccalauréat Scientifique</p>
-    	</div>
+        {
+            formation.map((item)=>{
+                return(
+                    <div key={item.id} className={item.className}>
+            <h4>{item.name}</h4>
+            <h5>{item.year}</h5>
+            <p>{item.content}</p>
+        </div>
+                )
+            })
+        }
+    	
     </div>
   )
 }

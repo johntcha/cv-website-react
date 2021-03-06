@@ -167,6 +167,7 @@
     }
 	}
 }
+
 @media screen and (max-width: 950px){
   .knowledgesContent {
     h3 {
@@ -210,6 +211,12 @@
     .formation {
       grid-area: 3 !important;
       margin-right: 0 !important;
+      .form1{
+        margin-top: -15px;
+      }
+      .form1>p, .form2>p, .form3>p{
+        display: none;
+      }
     }
     .hobbies {
       grid-area: 4 !important;

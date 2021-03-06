@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ProgressBar from "./ProgressBar";
 
-class Languages extends Component {
-	state = {
+
+const skills = {
 		competencies: [
 			{id: 1, value: "CSS"},
 			{id: 2, value: "JavaScript"},
@@ -11,23 +11,34 @@ class Languages extends Component {
 			{id: 5, value: "SQL"}
 		],
 		languages: [
-			{id: 1, value: "Français : langue maternelle"},
-			{id: 2, value: "Anglais : courant professionnel (TOEIC 890)"},
-			{id: 3, value: "Japonais : intermédiaire (B1/B2)"}
-		]
+			{id: 6, value: "Français : langue maternelle"},
+			{id: 7, value: "Anglais : courant professionnel (TOEIC 890)"},
+			{id: 8, value: "Japonais : intermédiaire (B1/B2)"}
+		],
+		otherSkills1: [
+			{id: 9, value: "Pack office"},
+			{id: 10, value: "Git/Github"},
+			{id: 11, value: "Méthodologie agile : Scrum"},
+			{id: 12, value: "Photoshop"}
+		],
+		otherSkills2: [
+		{id: 13, value: "Travail en équipe"},
+		{id: 14, value: "Communication"},
+		{id: 15, value: "Organisation"},
+		{id: 16, value: "Adaptation"}]
 	}
-	render() {
-		let {competencies, languages} = this.state;
+
+function Languages(props){
 
 		return (
 			<div className="languagesFrameworks">
 				<ProgressBar 
-					languages={competencies}
+					languages={skills.competencies}
 					className="languagesDisplay"
 					title="competencies"
 				/>
 				<ProgressBar 
-				languages={languages}
+				languages={skills.languages}
 				className="frameworksDisplay"
 				title="languages"
 				/>
@@ -35,47 +46,32 @@ class Languages extends Component {
 		    		<h3>Autres compétences</h3>
 		    		<div className="list">
 		    			<ul>
-		    				<li>
+		    			{skills.otherSkills1.map((item) => {
+		    				return (
+    					<li key={item.id}>
 		    					<i className="fas fa-check-square"></i>
-		    					Pack office
-		    				</li>
-		    				<li>
-		    					<i className="fas fa-check-square"></i>
-		    					Git/Github
-		    				</li>
-		    				<li>
-		    					<i className="fas fa-check-square"></i>
-		    					Méthodologie agile : Scrum
-		    				</li>
-		    				<li>
-		    					<i className="fas fa-check-square"></i>
-		    					Photoshop
-		    				</li>
+		    					{item.value}
+		    			</li>
+    						)
+		    			})
+		    			}	
 		    			</ul>
 		    			<ul>
-		    				<li>
+		    				{skills.otherSkills2.map((item) => {
+		    				return (
+    					<li key={item.id}>
 		    					<i className="fas fa-check-square"></i>
-		    					Travail en équipe
-		    				</li>
-		    				<li>
-		    					<i className="fas fa-check-square"></i>
-		    					Communication
-		    				</li>
-		    				<li>
-		    					<i className="fas fa-check-square"></i>
-		    					Organisation
-		    				</li>
-		    				<li>
-		    					<i className="fas fa-check-square"></i>
-		    					Adaptation
-		    				</li>
+		    					{item.value}
+		    			</li>
+    						)
+		    			})
+		    			}
 		    			</ul>
 		    		</div>
 		    	</div>
 			</div>
 
 		);
-	}
-}
+	};
 
 export default Languages;
