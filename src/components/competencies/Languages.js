@@ -18,7 +18,7 @@ const skills = {
 		otherSkills1: [
 			{id: 9, value: "Pack office"},
 			{id: 10, value: "Git/Github"},
-			{id: 11, value: "Méthodologie agile : Scrum"},
+			{id: 11, value: "Méthodologie agile : Scrum, Kanban"},
 			{id: 12, value: "Photoshop"}
 		],
 		otherSkills2: [
