@@ -19,8 +19,7 @@ export default class ProjectList extends Component {
 	handleRadio = (e) => {
 		let radio = e.target.value;
 		this.setState({selectedRadio: radio})
-	} 
-
+	}
 
 	render() {
 		let {projects, radios, selectedRadio} = this.state;
@@ -52,9 +51,7 @@ export default class ProjectList extends Component {
 						projects
 						.filter(item => item.languages.includes
 							(selectedRadio))
-						.map(item => {
-
-
+						.slice(0).reverse().map(item => {
 							return(
 								<Project
 									key={item.id} 
