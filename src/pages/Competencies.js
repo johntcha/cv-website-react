@@ -6,18 +6,18 @@ import Hobbies from '../components/competencies/Hobbies';
 import Formation from '../components/competencies/Formation';
 
 const Competencies = () => {
-  return (
-    <div className="knowledges">
-    	<Navigation/>
-    	<div className="knowledgesContent">
-    		<Languages />
-    		<Experience />
-            <Formation />
-    		<Hobbies />
-    	</div>
-    
-    </div>
-  )
+	return (
+		<div className="knowledges">
+			<Navigation />
+			<div className="knowledgesContent">
+				<Languages />
+				<Experience />
+				<Formation />
+				<Hobbies />
+			</div>
+
+		</div>
+	)
 }
 
 export default Competencies;
