@@ -4,9 +4,9 @@ import ProgressBar from "./ProgressBar";
 
 const skills = {
 	competencies: [
-		{ id: 1, value: "CSS" },
-		{ id: 2, value: "JavaScript" },
-		{ id: 3, value: "Java" },
+		{ id: 1, value: "JavaScript (React, Node.js)" },
+		{ id: 2, value: "TypeScript (NestJS)" },
+		{ id: 3, value: "HTML/CSS" },
 		{ id: 4, value: "PHP" },
 		{ id: 5, value: "SQL" }
 	],
@@ -17,7 +17,7 @@ const skills = {
 	],
 	otherSkills1: [
 		{ id: 9, value: "Pack office" },
-		{ id: 10, value: "Git/Github" },
+		{ id: 10, value: "Git" },
 		{ id: 11, value: "Méthodologie agile : Scrum, Kanban" },
 		{ id: 12, value: "Photoshop" }
 	],

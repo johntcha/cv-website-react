@@ -11,7 +11,7 @@ export default class ProjectList extends Component {
 			{ id: 1, value: 'javascript' },
 			{ id: 1, value: 'php' },
 			{ id: 1, value: 'react' },
-			{ id: 1, value: 'java' },
+			{ id: 1, value: 'typescript' },
 		],
 		selectedRadio: 'all'
 	};

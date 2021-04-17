@@ -31,7 +31,7 @@ export const portfolioData = [
     name: 'Tableau de bord du support Weglot',
     languages: ['javascript', 'php', 'all'],
     languagesIcons: ['fab fa-js', 'fab fa-php'],
-    source: 'http://www.github.com',
+    source: 'http://www.github.com/johntcha/weglot_support_dashboard',
     info: "Ce projet est un tableau de bord pour l'équipe du support de Weglot fait en PHP utilisant Simple HTML DOM Scraper et l'API d'Helpscout",
     picture: './images/dashboard.png'
   },
@@ -40,7 +40,7 @@ export const portfolioData = [
     name: '1001 sites Nature en ville de Genève',
     languages: ['php', 'all'],
     languagesIcons: ['fab fa-php'],
-    source: 'https://github.com/johntcha/weglot_support_dashboard',
+    source: '',
     info: "Rôle : Scrum Master. Refonte du site 1000 sites Nature en ville de Genève fait par SWAT, visant à faire un site vert en utilisant l'éco index comme indicateur. J'ai pu doubler le score d'éco index du site web. Site fait avec WordPress.",
     picture: './images/1001sites.jpg'
   },
@@ -64,20 +64,20 @@ export const portfolioData = [
   },
   {
     id: 8,
-    name: 'Application de reconnaissance faciale',
-    languages: ['java', 'all'],
-    languagesIcons: ['fab fa-java', 'fab fa-android', 'fab fa-python'],
-    source: '',
-    info: "Rôle : Scrum Master. Projet scolaire dans lequel l'objectif était de réaliser une application Android et un permettant de prendre une photo et de reconnaître le visage d'une personne grâce à un script python",
-    picture: './images/reconnaissance.jpg'
-  },
-  {
-    id: 9,
     name: 'Application météo',
     languages: ['react', 'all'],
     languagesIcons: ['fab fa-react'],
     source: 'https://github.com/johntcha/weatherapp',
     info: "Application affichant la météo d'aujourd'hui et de la semaine. Projet réalisé lors de mon stage de fin d'études à Capgemini",
     picture: './images/weatherapp.PNG'
+  },
+  {
+    id: 9,
+    name: 'Projet GARI',
+    languages: ['react', 'typescript', 'all'],
+    languagesIcons: ['fab fa-react'],
+    source: '',
+    info: "(Give And Receive to Improve) est une plateforme de partage digitale en peer to peer au sein de Capgemini",
+    picture: './images/capgemini.jpg'
   },
 ]
