@@ -75,9 +75,18 @@ export const portfolioData = [
     id: 9,
     name: 'Projet GARI',
     languages: ['react', 'typescript', 'all'],
-    languagesIcons: ['fab fa-react'],
+    languagesIcons: ['fab fa-react','devicon-typescript-plain', 'devicon-nodejs-plain', 'devicon-nestjs-plain'],
     source: '',
     info: "(Give And Receive to Improve) est une plateforme de partage digitale en peer to peer au sein de Capgemini",
     picture: './images/capgemini.jpg'
+  },
+  {
+    id: 10,
+    name: 'Projet Stonk Account',
+    languages: ['react', 'typescript', 'all'],
+    languagesIcons: ['fab fa-react','devicon-typescript-plain', 'devicon-nodejs-plain', 'devicon-nestjs-plain'],
+    source: 'https://github.com/johntcha/stonk-account',
+    info: "Projet personnel dans lequel il est possible de simuler ses comptes bancaire. Voir repo Github pour plus d'informations",
+    picture: './images/stonks.jpg'
   },
 ]
