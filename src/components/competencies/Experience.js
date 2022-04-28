@@ -1,44 +1,48 @@
 import React from 'react';
 
-const Experience = (props) => {
+const Experience = () => {
     return (
         <div className="experience">
             <h3>Expérience</h3>
             <div className="exp1">
-                <h4>Ingénieur développeur fullstack stagiaire - Capgemini</h4>
+                <h4>Ingénieur développeur fullstack - Capgemini</h4>
                 <h5><i className="fas fa-map-marker-alt"></i>
-            Issy-les-Moulineaux, France</h5>
-                <h6>Mars 2021 - Août 2021</h6>
+                Paris, France</h5>
+                <h6>Avril 2022 - Juillet 2022</h6>
                 <p>
-                    Travail sur le projet GARI (Give And Receive to Improve), qui est une plateforme de partage digitale en peer to peer au sein de Capgemini:
-                    <li>- Ajout de nouvelles fonctionnalités à l'application</li>
-                    <li>- Correction de bugs</li>
-                    <li>- Rédaction de documentation</li>
-                    <li>- Optimisation de l'application et du code</li>
-                    <li>- Test unitaire/ E2E</li>
-    		</p>
+                Au sein d'une équipe de 7 personnes sur un projet client en <b>TypeScript</b>, client qui responsable de tous les transports en commun de Paris et de ses environs:
+                    <li>- Développement d'API avec le framework <b>Fastify (NodeJs)</b></li>
+                    <li>- Développement de l'interface front de l'application avec le framework <b>React</b></li>
+                    <li>- Intégration de requête avec <b>SQL avec PostgreSQL</b></li>
+                    <li>- Rédaction de tests unitaires automatisés avec <b>Jest</b></li>
+    		    </p>
             </div>
             <div className="exp2">
-                <h4>Ingénieur web stagiare - Weglot</h4>
+                <h4>Ingénieur développeur fullstack - Capgemini</h4>
                 <h5><i className="fas fa-map-marker-alt"></i>
-            Paris, France</h5>
-                <h6>Janvier 2020 - Juillet 2021</h6>
+                Paris, France</h5>
+                <h6>Septembre 2021 - Avril 2022</h6>
                 <p>
-                    <ul>
-                        <li>- Résoudre des problèmes techniques par email</li>
-                        <li>- Développement du Dashbord du Support</li>
-                        <li>- Débogage et amélioration de scripts</li>
-                    </ul>
-                </p>
+                    Au sein d'une équipe de 6 personnes sur un projet client en <b>TypeScript</b>, client qui responsable de tous les transports en commun de Paris et de ses environs:
+                    <li>- Développement d'API avec le framework <b>Fastify (NodeJs)</b></li>
+                    <li>- Développement de l'interface front de l'application avec le framework <b>React</b></li>
+                    <li>- Intégration de requête <b>MongoDB</b></li>
+                    <li>- Rédaction de tests unitaires automatisés avec <b>Jest</b></li>
+    		</p>
             </div>
             <div className="exp3">
-                <h4>Assistant développeur web - Metropolis Japan</h4>
+                <h4>Ingénieur développeur fullstack - Capgemini</h4>
                 <h5><i className="fas fa-map-marker-alt"></i>
-            Tokyo, Japon</h5>
-                <h6>Mai 2019 - Août 2019</h6>
+                Issy-les-Moulineaux, France</h5>
+                <h6>Mars 2021 - Août 2021</h6>
                 <p>
-                    Développer et rénover des sites web pour les clients de Metropolis Japan
-            </p>
+                    Au sein d'une équipe de 7 personnes sur un projet interne en <b>TypeScript</b> qui est une plateforme de partage digitale en peer to peer au sein de Capgemini:
+                    <li>- Développement d'API sur le framework <b>NestJs (NodeJs)</b></li>
+                    <li>- Développement de l'interface front de l'application avec le framework <b>React</b></li>
+                    <li>- Intégration de requête <b>SQL avec PostgreSQL</b></li>
+                    <li>- Rédaction de tests unitaires et d'intégration automatisés avec <b>Jest et Cypress</b></li>
+                    <li>- Rédaction de la documentation</li>
+    		</p>
             </div>
         </div>
     )

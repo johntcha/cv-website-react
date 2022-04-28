@@ -2,7 +2,7 @@ import React from 'react';
 
 const hobby = [
   { id: 1, value: "Volley Ball", className: "fas fa-volleyball-ball" },
-  { id: 2, value: "Guitare", className: "fas fa-guitar" },
+  { id: 2, value: "Photographie", className: "fas fa-camera" },
   { id: 3, value: "Manga", className: "fas fa-book" },
   { id: 4, value: "Cuisine", className: "fas fa-utensils" },
   { id: 5, value: "Voyages", className: "fas fa-plane" }
