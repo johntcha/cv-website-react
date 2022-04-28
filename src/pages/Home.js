@@ -12,13 +12,13 @@ const Home = () => {
                 chez Capgemini</h2>
           <div className="resumes">
             <div className="pdf">
-              <a href="./images/CV-john-tcha.pdf" target="_blank">CV Français</a>
+              <a href="./cv/CV-john-tcha.pdf" target="_blank">CV Français</a>
             </div>
             <div className="pdf">
-              <a href="./images/resume-john-tcha-english.pdf" target="_blank">CV Anglais</a>
+              <a href="./cv/resume-john-tcha-english.pdf" target="_blank">CV Anglais</a>
             </div>
             <div className="pdf">
-              <a href="./images/rirekisho_john.pdf" target="_blank">CV Japonais</a>
+              <a href="./cv/rirekisho_john.pdf" target="_blank">CV Japonais</a>
             </div>
           </div>
         </div>

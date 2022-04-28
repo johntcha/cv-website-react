@@ -8,7 +8,7 @@ function Project(props) {
 		setShowInfo(!showInfo);
 	}
 
-	const { name, languagesIcons, source, info, picture } = props.item;
+	const { name, date, languagesIcons, source, info, picture } = props.item;
 
 	return (
 		<div className="project">
@@ -17,7 +17,8 @@ function Project(props) {
 					<i className={icon} key={icon}></i>
 				)}
 			</div>
-			<h3>{name}</h3>
+			<h3>{date} - {name}</h3>
+			
 			<img src={picture} alt="" onClick={handleInfo} />
 			<span className="infos" onClick={handleInfo}>
 				<i className="fas fa-plus-circle"></i>

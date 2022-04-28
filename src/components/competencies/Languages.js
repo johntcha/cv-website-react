@@ -7,7 +7,7 @@ const skills = {
 		{ id: 1, value: "HTML, CSS/SCSS" },
 		{ id: 2, value: "JavaScript/TypeScript" },
 		{ id: 3, value: "Stack front-end: React, Svelte" },
-		{ id: 4, value: "NodeJS (NestJS, Fastify), SQL, MongoDB" },
+		{ id: 4, value: "Stack back-end: NodeJs (NestJs, Fastify), SQL, NoSQL, MongoDB" },
 	],
 	languages: [
 		{ id: 5, value: "Français : langue maternelle" },

@@ -1,6 +1,7 @@
 export const portfolioData = [
   {
     id: 1,
+    date: '2018-2019',
     name: 'Tablette Pepper',
     languages: ['javascript', 'php', 'all'],
     languagesIcons: ['fab fa-js', 'fab fa-php', 'fab fa-python'],
@@ -10,6 +11,7 @@ export const portfolioData = [
   },
   {
     id: 2,
+    date: '2019',
     name: 'Petlife',
     languages: ['javascript', 'php', 'all'],
     languagesIcons: ['fab fa-js', 'fab fa-php'],
@@ -19,6 +21,7 @@ export const portfolioData = [
   },
   {
     id: 3,
+    date: '2020',
     name: 'Ancien CV web',
     languages: ['javascript', 'php', 'all'],
     languagesIcons: ['fab fa-js', 'fab fa-php'],
@@ -28,6 +31,7 @@ export const portfolioData = [
   },
   {
     id: 4,
+    date: '2020',
     name: 'Tableau de bord du support Weglot',
     languages: ['javascript', 'php', 'all'],
     languagesIcons: ['fab fa-js', 'fab fa-php'],
@@ -37,6 +41,7 @@ export const portfolioData = [
   },
   {
     id: 5,
+    date: '2021',
     name: '1001 sites Nature en ville de Genève',
     languages: ['php', 'all'],
     languagesIcons: ['fab fa-php'],
@@ -46,6 +51,7 @@ export const portfolioData = [
   },
   {
     id: 6,
+    date: '2020-2021',
     name: 'Site jeu vidéo',
     languages: ['react', 'all'],
     languagesIcons: ['fab fa-react'],
@@ -55,6 +61,7 @@ export const portfolioData = [
   },
   {
     id: 7,
+    date: '2021',
     name: 'Site web CV',
     languages: ['react', 'all'],
     languagesIcons: ['fab fa-react'],
@@ -64,6 +71,7 @@ export const portfolioData = [
   },
   {
     id: 8,
+    date: '2021',
     name: 'Application météo',
     languages: ['react', 'all'],
     languagesIcons: ['fab fa-react'],
@@ -73,6 +81,7 @@ export const portfolioData = [
   },
   {
     id: 9,
+    date: '2021',
     name: 'Projet GARI',
     languages: ['react', 'typescript', 'all'],
     languagesIcons: ['fab fa-react','devicon-typescript-plain', 'devicon-nodejs-plain', 'devicon-nestjs-plain'],
@@ -82,11 +91,30 @@ export const portfolioData = [
   },
   {
     id: 10,
+    date: '2021',
     name: 'Projet Stonk Account',
     languages: ['react', 'typescript', 'all'],
     languagesIcons: ['fab fa-react','devicon-typescript-plain', 'devicon-nodejs-plain', 'devicon-nestjs-plain'],
     source: 'https://github.com/johntcha/stonk-account',
     info: "Projet personnel dans lequel il est possible de simuler ses comptes bancaire. Voir repo Github pour plus d'informations",
     picture: './images/stonks.jpg'
+  },
+  {
+    id: 11,
+    date: '2021-2022',
+    name: 'Live iV',
+    languages: ['svelte', 'typescript', 'all'],
+    languagesIcons: ['devicon-svelte-plain','devicon-typescript-plain', 'devicon-nodejs-plain', 'devicon-nestjs-plain'],
+    info: "Projet client qui est une application sous forme de carte interactive rescenssant toutes les perturbations des transports en commun de Paris et ses alentours",
+    picture: './images/capgemini.jpg'
+  },
+  {
+    id: 12,
+    date: '2022',
+    name: 'VoC',
+    languages: ['react', 'typescript', 'all'],
+    languagesIcons: ['fab fa-react','devicon-typescript-plain', 'devicon-nodejs-plain', 'devicon-nestjs-plain'],
+    info: "Projet client sous forme de tableau de bord dans lequel plusieurs données sont mises en forme pour donner sens à celles-ci",
+    picture: './images/capgemini.jpg'
   },
 ]
